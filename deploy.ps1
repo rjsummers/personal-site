@@ -1,6 +1,6 @@
 hugo
 
-cd public
+Set-Location public
 
 git add .
 
@@ -10,4 +10,4 @@ git commit -m "Rebuilding site $dtime"
 
 git push origin master
 
-cd ..
+Set-Location ..

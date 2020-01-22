@@ -1,9 +1,20 @@
 body {
-    max-width: 40em;
+    max-width: 40rem;
     margin: auto;
     padding: 1em;
+    font-family: 'Alegreya', serif;
+    font-size: 1.125em;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.5rem;
 }
 
 .homepage-header {
+    text-align: center;
+}
+
+.formula {
     text-align: center;
 }
