@@ -6,8 +6,8 @@ git add .
 
 $dtime = Get-Date -Format "yyyy-mm-dd HH:mm K"
 
-$msg = "Rebuilding site $dtime"
-
-git commit -m $msg
+git commit -m "Rebuilding site $dtime"
 
 git push origin master
+
+cd ..
