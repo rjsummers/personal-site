@@ -11,10 +11,26 @@ h1 {
     font-size: 3.5rem;
 }
 
+a {
+    color: black;
+}
+
+a:hover {
+    color: #606060;
+}
+
 .homepage-header {
     text-align: center;
 }
 
 .formula {
     text-align: center;
+}
+
+.menu {
+    list-style-type: none;
+}
+
+.menu a {
+    display: block;
 }
